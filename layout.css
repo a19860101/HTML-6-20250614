@@ -41,7 +41,7 @@ header img {
     width: 1200px;
     margin-left: auto;
     margin-right: auto; 
-    column-gap: 30px;
+    gap: 30px;
 }
 #about {
     padding-top: 120px;
@@ -62,4 +62,31 @@ header img {
 }
 #about p {
     line-height: 1.6;
+}
+/* blog */
+#blog {
+    background-color: #ececec;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.blog-img {
+    aspect-ratio: 4/3;
+}
+#blog img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#blog .grid {
+    grid-template-columns: repeat(4, 1fr);
+}
+#blog .grid-item {
+        border: 1px solid #888;
+}
+.blog-body {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    background-color: #fff;
 }
