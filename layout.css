@@ -4,6 +4,10 @@
     margin: 0;
     padding: 0;
 }
+html {
+
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Fira Sans','Huninn';
 }
@@ -161,4 +165,13 @@ input[type='submit']{
 }
 input[type='submit']:hover {
     background-color: #ffd685;
+}
+/* footer */
+footer {
+    background-color: #222;
+    color: #cccccc;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 15px;
+    font-size: 14px;
 }
