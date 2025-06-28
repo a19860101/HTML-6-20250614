@@ -133,10 +133,32 @@ header img {
 }
 .form-control {
     width: 100%;
+    padding:10px 5px;
+    outline: 0;
+    border:#222 1px solid;
+    border-radius: 5px;
+    transition:.3s;
+}
+.form-control:focus {
+    border:#ffca60 1px solid
 }
 .form-label {
     width: 100%;
+    display: block;
+    margin-bottom:5px;
 }
 textarea.form-control {
     height: 200px;
+}
+input[type='submit']{
+    display: inline-block;
+    padding: 8px 30px;
+    background-color: #fa0;
+    border: 0;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: .3s;
+}
+input[type='submit']:hover {
+    background-color: #ffd685;
 }
