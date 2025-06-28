@@ -53,3 +53,13 @@ header img {
 #about .grid-item {
     text-align: center;
 }
+#about .grid-icon {
+    margin-bottom: 15px;
+    color: #ffd650;
+}
+#about h2 {
+    margin-bottom: 15px;
+}
+#about p {
+    line-height: 1.6;
+}
